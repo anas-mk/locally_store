@@ -26,7 +26,7 @@ class ProductOrderedCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              flex: 4,
+              flex: 3,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -122,7 +122,7 @@ class ProductOrderedCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                      '\$${productOrderedEntity.totalPrice}',
+                      'EGP ${productOrderedEntity.totalPrice}',
                       style: const TextStyle(
                         fontWeight: FontWeight.w500,
                         fontSize: 14,

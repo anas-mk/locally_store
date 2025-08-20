@@ -26,7 +26,7 @@ class ProductPrice extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            "\$${(discountedPrice ?? price).toStringAsFixed(2)}",
+            "EGP ${(discountedPrice ?? price).toStringAsFixed(2)}",
             style: TextStyle(
               fontWeight: fontWeight,
               color: AppColors.primary,
@@ -37,7 +37,7 @@ class ProductPrice extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 8),
               child: Text(
-                "\$${price.toStringAsFixed(2)}",
+                price.toStringAsFixed(2),
                 style: TextStyle(
                   color: Colors.grey,
                   fontSize: fontSize - 2,

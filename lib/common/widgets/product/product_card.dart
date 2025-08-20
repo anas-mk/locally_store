@@ -15,11 +15,11 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final String displayPrice = productEntity.discountedPrice == 0
-        ? "${productEntity.price}\$"
-        : "${productEntity.discountedPrice}\$";
+        ? "EGP ${productEntity.price}"
+        : "EGP ${productEntity.discountedPrice}";
 
     final String? originalPrice = productEntity.discountedPrice != 0
-        ? "${productEntity.price}\$"
+        ? "${productEntity.price}"
         : null;
 
     return GestureDetector(

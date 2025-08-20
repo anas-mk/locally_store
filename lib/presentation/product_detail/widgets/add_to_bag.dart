@@ -82,7 +82,7 @@ class AddToBag extends StatelessWidget {
         return Padding(
           padding: const EdgeInsets.all(8.0),
           child: SizedBox(
-            height: 70,
+            height: 55,
             width: double.infinity,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
