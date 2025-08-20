@@ -34,7 +34,7 @@ class Checkout extends StatelessWidget {
                 ),
               ),
               Text(
-                '\$${CartHelper.calculateCartSubtotal(products).toString()}',
+                'EGP ${CartHelper.calculateCartSubtotal(products).toString()}',
                 style: const TextStyle(
                   fontSize: 16,
                   color: AppColors.text,
@@ -53,7 +53,7 @@ class Checkout extends StatelessWidget {
                 ),
               ),
               Text(
-                '\$8',
+                'EGP 60',
                 style: TextStyle(
                   fontSize: 16,
                   color: AppColors.text,
@@ -72,7 +72,7 @@ class Checkout extends StatelessWidget {
                 ),
               ),
               Text(
-                '\$0.0',
+                'EGP 0.0',
                 style: TextStyle(
                   fontSize: 16,
                   color: AppColors.text,
@@ -92,7 +92,7 @@ class Checkout extends StatelessWidget {
                 ),
               ),
               Text(
-                '\$${CartHelper.calculateCartSubtotal(products) + 8 }',
+                'EGP ${CartHelper.calculateCartSubtotal(products) + 60 }',
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,

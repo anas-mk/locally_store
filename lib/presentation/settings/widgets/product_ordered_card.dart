@@ -79,7 +79,7 @@ class OrderItemCard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 8, top: 4),
             child: Text(
-              '\$${productOrderedEntity.totalPrice}',
+              'EGP${productOrderedEntity.totalPrice}',
               style: const TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 14,

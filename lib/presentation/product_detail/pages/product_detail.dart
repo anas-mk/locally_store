@@ -46,7 +46,7 @@ class ProductDetailPage extends StatelessWidget {
               ProductImages(productEntity: productEntity),
               const SizedBox(height: 10),
               ProductTitle(productEntity: productEntity),
-              const SizedBox(height: 10),
+              const SizedBox(height: 5),
               ProductPrice(productEntity: productEntity),
               const SizedBox(height: 20),
               SelectedSize(productEntity: productEntity),

@@ -56,7 +56,7 @@ class CheckOutPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  '\$${CartHelper.calculateCartSubtotal(products)}',
+                                  'EGP ${CartHelper.calculateCartSubtotal(products)}',
                                   style: const TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,

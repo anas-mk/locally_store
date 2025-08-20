@@ -106,7 +106,7 @@ class AddToBag extends StatelessWidget {
                           ) *
                           quantity;
                       return Text(
-                        "\$${price.toStringAsFixed(2)}",
+                        "EGP ${price.toStringAsFixed(2)}",
                         style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
